@@ -4,11 +4,11 @@ WORKDIR /app
 
 # Copy the project files and build the application
 COPY . .
-RUN ./mvnw clean package
+#RUN ./mvnw clean package
 
 
 # Copy the built JAR file from the build stage
-COPY --from=build /app/target/rita.jar .
+COPY target/rita-0.0.1-SNAPSHOT.jar .
 
 # Set necessary environment variables for Oracle connection
 # ENV ...
