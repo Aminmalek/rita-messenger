@@ -1,4 +1,4 @@
-package com.amin.rita.Repository;
+package com.amin.rita.repository;
 
 import com.amin.rita.entity.Channel;
 import org.springframework.data.jpa.repository.JpaRepository;

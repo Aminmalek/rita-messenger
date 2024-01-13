@@ -1,10 +1,12 @@
 package com.amin.rita.entity;
 
 
-import java.security.Timestamp;
-
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import lombok.Data;
+
+import java.security.Timestamp;
 
 
 @Entity
